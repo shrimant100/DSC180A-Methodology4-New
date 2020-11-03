@@ -17,7 +17,7 @@ LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 USER root
 
 RUN	apt-get install htop \
-    apt-get install aria2 \
+    apt-get install aria2c \
     apt-get install nmap \
     apt-get install traceroute
     
